@@ -17,6 +17,13 @@
     --widget-bg: #131617;
 }
 /*Header*/
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
 .header {
     background-color: #fff;
     height: 90px;
@@ -25,14 +32,6 @@
     padding: 0px;
     box-shadow: 0 3px 9px rgb(0, 0, 0 / 5%);
     transition: all 0.4s ease 0s;
-}
-
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1000;
 }
 
 .container {
