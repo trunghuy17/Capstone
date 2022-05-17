@@ -368,3 +368,45 @@ input:checked+.mode-container i.gg-moon {
 .w3l-index3{
     background-color: #F7F9FC;
 }
+.sub-title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #dc4f72;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.w3l-index3 .book-info h3 {
+    font-size: 35px;
+    line-height: 40px;
+    color: #2C3038;
+    font-weight: 700;
+}
+.w3l-index3 .book-info p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #5a5a5a;
+    line-height: 24.4px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #dc4f72;
+    border-color: #dc4f72;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #d62f58;
+    border-color: #cf2952;
+}
+img.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+img.img-curve {
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+img.img-curve:hover {
+    transform: translateY(-0.5rem);
+    transition: 0.3s ease-in-out;
+}
