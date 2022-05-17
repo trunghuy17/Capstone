@@ -172,7 +172,7 @@ input:checked+.mode-container i.gg-sun {
 
 .gg-sun {
     position: relative;
-    transform: scale(var(--gg, 1));
+    transform: scale(var(--ggs, 1));
     height: 24px;
     background: linear-gradient(180deg,
             currentColor 4px,
