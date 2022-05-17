@@ -108,9 +108,7 @@ a.nav-link:before {
     bottom: 13px;
 }
 
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
+nav ul li a, nav ul li a:after, nav ul li a:before {
     transition: all .5s;
 }
 
@@ -174,7 +172,7 @@ input:checked+.mode-container i.gg-sun {
 
 .gg-sun {
     position: relative;
-    transform: scale(var(--ggs, 1));
+    transform: scale(var(--gg, 1));
     height: 24px;
     background: linear-gradient(180deg,
             currentColor 4px,
