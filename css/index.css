@@ -341,3 +341,128 @@ ul.resp-tabs-list, p {
     color: #eee;
     line-height: 24.5px;
 }
+
+/*Featured*/
+.w3l-featured .featured-content {
+    margin: 20px 0;
+}
+.header-section {
+    max-width: 750px;
+    margin: 0 auto;
+}
+.header-section h3 {
+    color: #2C3038;
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 600;
+}
+.header-section p {
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.horizontalTab{
+    display: block; 
+    width: 100%; 
+    margin: 0px;
+}
+.resp-tab-item{
+    background-color: white; 
+    border-color: rgb(193, 193, 193);
+}
+.resp-tabs-list li {
+    font-weight: 600;
+    font-size: 22px;
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    color: #4E5B61;
+    background: #fff !important;
+    border-bottom: 3px solid #eee;
+}
+.resp-tab-active {
+    border-bottom: none;
+    margin-bottom: -1px !important;
+    border-bottom: 3px #dc4f72 solid !important;
+    color: #dc4f72 !important;
+}
+.resp-tab-active {
+    border-bottom: none;
+    background-color: #fff;
+}
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+h2.resp-accordion {
+    font-size: 20px;
+    border: 1px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+    padding: 10px 15px;
+}
+.resp-tabs-container {
+    padding: 0px;
+    background-color: #fff;
+    clear: left;
+}
+h2.resp-accordion:first-child {
+    border-top: 1px solid #c1c1c1;
+}
+h2.resp-tab-active {
+    border-bottom: 0px solid #c1c1c1 !important;
+    margin-bottom: 0px !important;
+    padding: 10px 15px !important;
+}
+h2.resp-tab-active {
+    background: #DBDBDB;
+    border-bottom: 3px #dc4f72 solid !important;
+}
+.resp-arrow {
+    width: 0;
+    height: 0;
+    float: right;
+    margin-top: 3px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 12px solid #c1c1c1;
+}
+h2.resp-tab-active span.resp-arrow {
+    border: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 12px solid #9B9797;
+}
+
+.resp-tab-content {
+    display: none;
+    padding: 15px;
+}
+.resp-tab-content-active {
+    display: block;
+}
+.resp-tab-content {
+    border-top-color: #5AB1D0;
+}
+.w3l-featured .featured-content h3 {
+    color: #2C3038;
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.w3l-featured .featured-content p {
+    color: #5a5a5a;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
