@@ -571,7 +571,9 @@ ul {
     font-size: 15px;
     line-height: 36px;
 }
-
+.w3l-footer .w3l-footer-16-main p a{
+    color: #2C3038;
+}
 .w3l-footer #movetop {
     position: fixed;
     bottom: 75px;
