@@ -7,6 +7,31 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+/*Toolbar*/
+.pull-right{
+    float: right;
+}
+.pull-right {
+    position: fixed;
+    float: right;
+    right: 0px;
+    top: 70px;
+    width: 90px;
+    z-index: 9999;
+    text-align: center;
+}
+.toggle-right-sidebar span {
+    background: #0D1326;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #e6ebff;
+    border-radius: 50px;
+    font-size: 26px;
+    cursor: pointer;
+    opacity: 0.5;
+}
 /*Header*/
 .fixed-top {
     position: fixed;
