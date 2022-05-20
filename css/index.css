@@ -320,23 +320,22 @@ input:checked+.mode-container i.gg-moon {
 .sub-title {
     font-size: 16px;
     line-height: 20px;
-    font-weight: 700;
+    font-weight: 600;
     color: #dc4f72;
-    text-transform: uppercase;
     margin-bottom: 5px;
 }
 .w3l-index3 .book-info h3 {
     font-size: 35px;
     line-height: 40px;
     color: #2C3038;
-    font-weight: 700;
+    font-weight: 600;
 }
 .w3l-index3 .book-info p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     color: #5a5a5a;
-    line-height: 24.4px;
+    line-height: 24px;
 }
 .btn-primary {
     color: #fff;
