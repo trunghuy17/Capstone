@@ -7,31 +7,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
-/*Toolbar*/
-.pull-right{
-    float: right;
-}
-.pull-right {
-    position: fixed;
-    float: right;
-    right: 0px;
-    top: 70px;
-    width: 90px;
-    z-index: 9999;
-    text-align: center;
-}
-.toggle-right-sidebar span {
-    background: #0D1326;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    color: #e6ebff;
-    border-radius: 50px;
-    font-size: 26px;
-    cursor: pointer;
-    opacity: 0.5;
-}
+
 /*Header*/
 .fixed-top {
     position: fixed;
@@ -84,7 +60,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #dc4f72;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-    text-transform: capitalize;
     transition: all 0.5s ease;
     padding: 14px 0;
     font-size: 16px;
@@ -130,6 +105,10 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
     background-color: #dc4f72;
     border-color: #dc4f72;
 }
+/*dark theme*/
+#myBody{
+    background-color: #fff;
+}
 #switchButton {
     background-color: white;
 }
@@ -142,6 +121,10 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
   
 .dark#myBody{
     background-color: black;
+    color: #fff;
+}
+.dark .header {
+    background-color: black;
 }
 .dark #switchButton {
     background-color: black;
@@ -150,13 +133,39 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
     display: block;
     color: white;
 }
-  
 .dark #switchButton .fa-moon {
     display: none;
 }
-/*document.getElementById('switchButton').onclick = function(){
-    document.getElementById("myBody").classList.toggle('dark');
-}*/
+.dark .w3l-index3 {
+    background-color: black;
+}
+.dark .w3l-stats {
+    background: black;
+}
+.dark .navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+}
+.dark .navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #dc4f72;
+}
+.dark .w3l-index3 .book-info h3{
+    color: #fff;
+}
+.dark .w3l-index3 .book-info p{
+    color: #fff;
+}
+.dark .header-section h3{
+    color: #fff;
+}
+.dark .header-section p{
+    color: #fff;
+}
+.dark .w3l-footer .w3l-footer-16-main.py-5 {
+    background: black;
+}
+.dark .w3l-footer .w3l-footer-16-main h3{
+    color: #fff;
+}
 @media (min-width: 576px) {
     .container {
         max-width: 100%;

@@ -26,11 +26,7 @@
     <link rel="stylesheet" href="./css/index.css" />
 </head>
 
-<body>
-    <!--toolbar-->
-    <div class="pull-right toggle-right-sidebar">
-        <span class="fa title-open-right-sidebar tooltipstered fa-angle-double-right"></span>
-    </div>
+<body id="myBody">
     <!--Header-->
     <header class="header" class="fixed-top">
         <div class="container">
@@ -104,7 +100,9 @@
                 <div class="col-lg-6 book-info pr-lg-5">
                     <h6 class="sub-title">ABOUT OUR COMPANY</h6>
                     <h3 class="mb-md-4 mb-3">The Best Choice For Your Successful Business!</h3>
-                    <p class="mb-md-5 mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est repellendus illum harum quam nihil totam reprehenderit! Ut sed eveniet quos! Asperiores officia, repudiandae similique reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.</p>
+                    <p class="mb-md-5 mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est repellendus
+                        illum harum quam nihil totam reprehenderit! Ut sed eveniet quos! Asperiores officia, repudiandae
+                        similique reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.</p>
                     <a href="#" class="btn btn-primary theme-button">READ MORE</a>
                 </div>
                 <div class="col-lg-6 pl-lg-5 mt-lg-0 mt-5">
@@ -354,7 +352,7 @@
                     document.documentElement.scrollTop = 0;
                 }
             </script>
-            
+
             <script>
                 $(function () {
                     $('.navbar-toggler').click(function () {
@@ -369,6 +367,48 @@
 
     <!--res tab-->
     <script src="./js/easyResponsiveTabs.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#parentHorizontalTab').easyResponsiveTabs({
+                type: 'default', 
+                width: 'auto', 
+                fit: true, 
+                tabidentify: 'hor_1', 
+                activate: function (event) { 
+                    var $tab = $(this);
+                    var $info = $('#nested-tabInfo');
+                    var $name = $('span', $info);
+                    $name.text($tab.text());
+                    $info.show();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
     <!--count num-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
@@ -380,7 +420,7 @@
     <script>
         $('.counter').countUp();
     </script>
-    
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
 
 </html>
