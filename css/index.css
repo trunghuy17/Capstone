@@ -9,14 +9,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Header*/
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1000;
+header.nav-fixed {
+    padding: 0px;
+    background-color: #fff;
+    height: 70px;
+    border-bottom: none;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 }
-.header {
+header {
     background-color: #fff;
     height: 90px;
     display: grid;
@@ -31,14 +31,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
-.navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0;
 }
 .navbar .navbar-brand {
     padding: 0;
@@ -193,11 +185,6 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
         padding-left: 25px;
         margin-right: auto;
         margin-left: auto;
-    }
-
-    .navbar-expand-lg {
-        flex-flow: row nowrap;
-        justify-content: flex-start;
     }
 }
 
