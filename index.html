@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="//fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&amp;display=swap"
         rel="stylesheet">
-
     <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -354,9 +353,9 @@
             </script>
 
             <script>
-                    $('.navbar-toggler').click(function () {
-                        $('body').toggleClass('noscroll');
-                    });
+                $('.navbar-toggler').click(function () {
+                    $('body').toggleClass('noscroll');
+                });
             </script>
         </section>
     </footer>
@@ -366,20 +365,20 @@
     <!--res tab-->
     <script src="./js/easyResponsiveTabs.js"></script>
     <script type="text/javascript">
-            $('#parentHorizontalTab').easyResponsiveTabs({
-                type: 'default', 
-                width: 'auto', 
-                fit: true, 
-                tabidentify: 'hor_1', 
-                activate: function (event) { 
-                    var $tab = $(this);
-                    var $info = $('#nested-tabInfo');
-                    var $name = $('span', $info);
-                    $name.text($tab.text());
-                    $info.show();
-                }
-            });
-        
+        $('#parentHorizontalTab').easyResponsiveTabs({
+            type: 'default',
+            width: 'auto',
+            fit: true,
+            tabidentify: 'hor_1',
+            activate: function (event) {
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+
     </script>
     <!--header menu-->
     <script>
@@ -420,6 +419,7 @@
     </script>
     <!--dark theme-->
     <script type="text/javascript" src="./js/index.js"></script>
+    
 </body>
 
 </html>

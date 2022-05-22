@@ -170,6 +170,10 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
 .dark .w3l-footer .w3l-footer-16-main p{
     color: #fff;
 }
+.dark .w3l-footer .w3l-footer-16-main p{
+    color: #5a5a5a
+}
+
 @media (min-width: 576px) {
     .container {
         max-width: 100%;
@@ -626,3 +630,4 @@ ul {
     opacity: 0.7;
     transition: 0.3s ease;
 }
+
