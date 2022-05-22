@@ -115,7 +115,7 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
     background-color: black;
     color: #fff;
 }
-.dark .header {
+.dark header {
     background-color: black;
 }
 .dark #switchButton {
@@ -156,6 +156,18 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
     background: black;
 }
 .dark .w3l-footer .w3l-footer-16-main h3{
+    color: #fff;
+}
+.dark .w3l-footer .footer-gd-16 li a{
+    color: #fff;
+}
+.dark .w3l-footer .w3l-footer-16-main p a{
+    color: #fff;
+}
+.dark .w3l-footer ul.social li a{
+    color: #fff;
+}
+.dark .w3l-footer .w3l-footer-16-main p{
     color: #fff;
 }
 @media (min-width: 576px) {
@@ -524,8 +536,8 @@ ul {
 .w3l-footer .end-column {
     background-color: #fff;
     padding: 2em;
-    border-radius: var(--card-curve);
-    box-shadow: var(--card-box-shadow);
+    border-radius: 6px;
+    box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
 }
 .w3l-footer .w3l-footer-16-main h4 {
     font-size: 18px;
