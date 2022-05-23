@@ -9,13 +9,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Header*/
-header.nav-fixed {
-    padding: 0px;
-    background-color: #fff;
-    height: 70px;
-    border-bottom: none;
-    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
-}
 header {
     background-color: #fff;
     height: 90px;
@@ -24,6 +17,13 @@ header {
     padding: 0px;
     box-shadow: 0 3px 9px rgb(0, 0, 0 / 5%);
     transition: all 0.4s ease 0s;
+}
+header.nav-fixed {
+    padding: 0px;
+    background-color: #fff;
+    height: 90px;
+    border-bottom: none;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 }
 .container {
     width: 100%;
@@ -235,7 +235,7 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 5rem;
+    padding-top: 10.5rem;
 }
 .align-items-center {
     align-items: center !important;
@@ -394,7 +394,7 @@ ul.resp-tabs-list, p {
     color: #2C3038;
     font-size: 46px;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 700;
 }
 .header-section p {
     color: #5a5a5a;
