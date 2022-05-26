@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="//fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&amp;display=swap"
         rel="stylesheet">
-
     <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -28,7 +27,7 @@
 
 <body id="myBody">
     <!--Header-->
-    <header class="header" class="fixed-top">
+    <header id="site-header" class="fixed-top nav-fixed">
         <div class="container">
             <nav class="navbar navbar-expand-lg stroke">
                 <a class="navbar-brand" href="index.html">
@@ -365,7 +364,7 @@
     <section class="w3l-featured py-5 mb-4" id="projects">
         <div class="container py-lg-3">
             <div class="header-section text-center mx-auto">
-                <h6 class="sub-title">Featured Cases</h6>
+                <h6 class="sub-title">FEATURED CASES</h6>
                 <h3>Completed Projects </h3>
                 <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
                     Nulla mollis dapibus nunc, ut rhoncus
@@ -663,15 +662,12 @@
             </script>
 
             <script>
-                $(function () {
-                    $('.navbar-toggler').click(function () {
-                        $('body').toggleClass('noscroll');
-                    })
+                $('.navbar-toggler').click(function () {
+                    $('body').toggleClass('noscroll');
                 });
             </script>
         </section>
     </footer>
-
 
     <!--res tab-->
     <script src="./js/easyResponsiveTabs.js"></script>

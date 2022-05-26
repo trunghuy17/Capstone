@@ -32,7 +32,6 @@ h6 {
     box-shadow: 0 3px 9px rgb(0, 0, 0 / 5%);
     transition: all 0.4s ease 0s;
 }
-
 .container {
     width: 100%;
     padding-right: 15px;
@@ -171,11 +170,11 @@ nav ul li a:before {
 }
 
 .dark .w3l-index3 {
-    background-color: black;
+    background: rgba(128, 128, 128, 0.177);
 }
 
 .dark .w3l-stats {
-    background: black;
+    background: rgba(128, 128, 128, 0.177);
 }
 
 .dark .navbar-expand-lg .navbar-nav .nav-link {
@@ -203,7 +202,7 @@ nav ul li a:before {
 }
 
 .dark .w3l-footer .w3l-footer-16-main.py-5 {
-    background: black;
+    background: rgba(128, 128, 128, 0.177);
 }
 
 .dark .w3l-footer .w3l-footer-16-main h3 {
@@ -243,11 +242,6 @@ nav ul li a:before {
         margin-right: auto;
         margin-left: auto;
     }
-
-    .navbar-expand-lg {
-        flex-flow: row nowrap;
-        justify-content: flex-start;
-    }
 }
 
 @media (min-width: 1200px) {
@@ -281,7 +275,7 @@ nav ul li a:before {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 5rem;
+    padding-top: 10.5rem;
 }
 
 .align-items-center {
@@ -466,7 +460,7 @@ p {
     color: #2C3038;
     font-size: 46px;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .header-section p {
@@ -491,7 +485,7 @@ p {
 }
 
 .resp-tabs-list li {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 22px;
     padding: 15px;
     margin: 0;
@@ -639,8 +633,8 @@ ul {
 .w3l-footer .end-column {
     background-color: #fff;
     padding: 2em;
-    border-radius: var(--card-curve);
-    box-shadow: var(--card-box-shadow);
+    border-radius: 6px;
+    box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
 }
 
 .w3l-footer .w3l-footer-16-main h4 {
